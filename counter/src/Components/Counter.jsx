@@ -6,7 +6,7 @@ const Button =({name,onClick})=>{
     return (
 
         <>
-        
+
         <button onClick={onClick}>{name}</button>
 
         </>
@@ -43,7 +43,7 @@ const Counter = () =>{
 
         <h1> Counter App</h1>
 
-        <h5>{count}</h5>
+        <h5>Count: {count}</h5>
        
         <Button name={"Increment"} onClick={handleIncrement}/>
 
